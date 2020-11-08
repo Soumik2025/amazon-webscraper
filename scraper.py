@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import datetime
 
 
-PATH = ".\chromedriver.exe" # the seleniun webdriver
-URL = "The Amazon URL" # the url you want to to 
+PATH = ".\chromedriver.exe" # the seleniun webdriver path
+URL = "The Amazon URL" # the url you want to to scraper
 
 driver = webdriver.Chrome(PATH)
 driver.maximize_window()
